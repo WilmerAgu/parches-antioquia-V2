@@ -1928,12 +1928,8 @@ input[type="radio"] .styled:checked+label::after {
      top: 27px;
      width: 149px;
 }
-.London-img {
-     margin: 0 -15px;
-}
-.London .London-img figure {
-     margin: 0px;
-}
+
+
 .Tours {
      background-color: #fff;
      margin-top: 90px;
@@ -1997,12 +1993,13 @@ input[type="radio"] .styled:checked+label::after {
      margin: 0px 5px;
 }
 .amazing {
-     background: url(../images/Amazing.jpg);
+     background: url(../img/index/miradorppl);
      padding: 90px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
 }
+
 .amazing .amazing-box {
      text-align: center;
 }
@@ -2017,6 +2014,7 @@ input[type="radio"] .styled:checked+label::after {
 .amazing .amazing-box span {
      color: #fff;
      font-size: 17px;
+     font-weight: bold;
      line-height: 32px;
      display: inline-block;
      margin-bottom: 35px;
@@ -2033,7 +2031,49 @@ input[type="radio"] .styled:checked+label::after {
      margin: 0 10px;
 }
 .amazing .amazing-box a:hover {
-     background: #15cfe5;
+     background: #000;
+}
+/*amagazing museos*/
+.amazing-museos {
+     background: url(../img/index/plaza-botero.jpg);
+     padding: 90px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+
+.amazing-museos .amazing-box-museos {
+     text-align: center;
+}
+.amazing-museos .amazing-box-museos h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #390808;
+     line-height: 50px;
+     text-transform: uppercase;
+}
+.amazing-museos .amazing-box-museos span {
+     color: #fff;
+     font-size: 17px;
+     font-weight: bold;
+     line-height: 32px;
+     display: inline-block;
+     margin-bottom: 35px;
+}
+.amazing-museos .amazing-box-museos a {
+     font-size: 17px;
+     padding: 15px 50px;
+     background-color: #ee580f;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin: 0 10px;
+}
+.amazing-museos .amazing-box-museos a:hover {
+     background: #000;
 }
 .blog {
      background-color: #fff;
