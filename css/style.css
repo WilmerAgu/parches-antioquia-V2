@@ -1082,7 +1082,7 @@ ul.top_icon li a {
 }
 
 
-}
+
 .main-menu ul li:last-child a {
      padding-right: 0;
 }
@@ -1156,7 +1156,7 @@ ul.top_icon li a {
      display: inline-block;
      vertical-align: middle;
 }
-.main-menu ul>li:nth-child (6) {
+.main-menu ul>li:nth-child(6) {
      padding-right: 0px;
 }
 .nav>li {
@@ -1842,7 +1842,7 @@ input[type="radio"] .styled:checked+label::after {
      margin-left: 15px;
 }
 .titlepage h2::before,
-. .titlepage h2::after {
+ .titlepage h2::after {
      content: "";
      position: absolute;
      height: 5px;
@@ -1882,6 +1882,11 @@ input[type="radio"] .styled:checked+label::after {
 }
 .traveling-box .read-more a:hover {
      background: #15cfe5;
+}
+.traveling-box img{
+     width: 400px;
+     height: 200px;
+     border-radius: 50%;
 }
 .London {
      background-color: #fff;
