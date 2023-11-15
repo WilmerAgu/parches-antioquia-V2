@@ -2317,3 +2317,29 @@ ul.location_icon span {
 }
 
 /** slider arrow **/
+{
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+ }
+
+ .floating-images {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     text-align: center;
+     z-index: 1000; /* Asegura que las imágenes estén en la parte superior */
+ }
+
+ .floating-images img {
+     width: 150px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+     margin: 10px;
+     border-radius: 50%; /* Para hacer las imágenes circulares (opcional) */
+ }
+
+ /* Estilos adicionales para el contenido de la página */
+ .content {
+     padding: 10px;
+     margin-top: 50px; /* Ajusta el margen superior para evitar que el contenido se superponga con las imágenes */
+ }
