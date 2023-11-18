@@ -1994,7 +1994,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 .amazing {
      background: url(../img/index/miradorppl);
-     padding: 90px 0px;
+     padding: 300px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
@@ -2035,8 +2035,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 /*amagazing museos*/
 .amazing-museos {
-     background: url(../img/riosycascadas/medi.jpeg);
-     padding: 90px 0px;
+     background: url(../img/index/plaza-botero.jpg);
+     padding: 250px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
