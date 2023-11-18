@@ -2096,21 +2096,34 @@ input[type="radio"] .styled:checked+label::after {
      background-repeat: no-repeat;
      background-position: center center;
 }
+.h2mus{
+     font-size: 80px;
+     font-weight: bold;
+     color: #347eaf;
+     background-position: center center;
+}
 
-.amazing-museos-marco .amazing-box-museos .amazing-museo-ant{
+.amazing-museo-ant{
+     color: #fdfdfd;
+     font-weight: bold;
+     font-size: 25px;
+     background-position: center center;
+}
+
+.amazing-museos-marco .amazing-box-museos {
      text-align: center;
 }
 .amazing-museos-marco .amazing-box-museos h2{
      padding: 0px 0px 20px 0px;
-     font-size: 45px;
+     font-size: 50px;
      font-weight: bold;
-     color: #f8f8f8;
+     color: #d32424;
      line-height: 50px;
      text-transform: uppercase;
 }
 .amazing-museos-marco .amazing-box-museos span  {
-     color: #ffffff;
-     font-size: 17px;
+     color: #d1cfcf;
+     font-size: 25px;
      font-weight: bold;
      line-height: 32px;
      display: inline-block;
@@ -2128,7 +2141,7 @@ input[type="radio"] .styled:checked+label::after {
      margin: 0 10px;
 }
 .amazing-museos-marco .amazing-box-museos a:hover {
-     background: #ad1f1f;
+     background: #141212;
 }
 
 
