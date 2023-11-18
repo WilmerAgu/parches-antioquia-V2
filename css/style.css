@@ -2080,7 +2080,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .amazing-museo-ant {
      background: url(../imgmuseos/museo-de-antioquia1.jpg);
-     padding: 90px 0px;
+     padding: 240px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
@@ -2088,7 +2088,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .amazing-museos-marco {
      background: url(../imgmuseos/marco\ fidel.png);
-     padding: 90px 0px;
+     padding: 150px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
