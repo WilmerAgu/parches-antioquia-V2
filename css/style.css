@@ -2156,6 +2156,14 @@ input[type="radio"] .styled:checked+label::after {
      background-position: center center;
 }
 
+.amazing-nat1 {
+     background: url(../img/naturaleza/parapente.jpg);
+       padding: 300px 0px;
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+       background-position: center center;
+  }
+
 /* ************************ */
 .blog {
      background-color: #fff;
