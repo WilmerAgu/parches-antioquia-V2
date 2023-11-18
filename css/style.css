@@ -2000,10 +2000,10 @@ input[type="radio"] .styled:checked+label::after {
      background-position: center center;
 }
 
-.amazing .amazing-box .amazing-box-museos{
+.amazing .amazing-box .amazing-box-museos .amazing-box-nat{
      text-align: center;
 }
-.amazing .amazing-box h2 {
+.amazing .amazing-box .amazing-box-nat h2 {
      padding: 0px 0px 20px 0px;
      font-size: 45px;
      font-weight: bold;
@@ -2011,7 +2011,7 @@ input[type="radio"] .styled:checked+label::after {
      line-height: 50px;
      text-transform: uppercase;
 }
-.amazing .amazing-box span {
+.amazing .amazing-box .amazing-box-nat span {
      color: #fff;
      font-size: 17px;
      font-weight: bold;
@@ -2019,7 +2019,7 @@ input[type="radio"] .styled:checked+label::after {
      display: inline-block;
      margin-bottom: 35px;
 }
-.amazing .amazing-box a {
+.amazing .amazing-box .amazing-box-nat a {
      font-size: 17px;
      padding: 15px 50px;
      background-color: #ee580f;
@@ -2030,11 +2030,11 @@ input[type="radio"] .styled:checked+label::after {
      text-align: center;
      margin: 0 10px;
 }
-.amazing .amazing-box a:hover {
+.amazing .amazing-box .amazing-box-nat a:hover {
      background: #000;
 }
 /*amagazing museos*/
-.amazing-museos {
+.amazing-museos .amazing-box-nat {
      background: url(../img/index/plaza-botero.jpg);
      padding: 250px 0px;
      background-size: 100% 100%;
@@ -2042,6 +2042,13 @@ input[type="radio"] .styled:checked+label::after {
      background-position: center center;
 }
 
+.amazing-museos .amazing-box-museos .amazing-box-nat {
+     background: url(../img/index/plaza-botero.jpg);
+     padding: 250px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
 .amazing-museos .amazing-box-museos {
      text-align: center;
 }
@@ -2126,6 +2133,17 @@ input[type="radio"] .styled:checked+label::after {
 }
 .amazing-museos-marco .amazing-box-museos a:hover {
      background: #ad1f1f;
+}
+
+
+/*página naturaleza*/
+
+.amazing-box-nat {
+     background: url(../img/naturaleza/parapente.jpg);
+     padding: 250px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
 }
 
 /* ************************ */
