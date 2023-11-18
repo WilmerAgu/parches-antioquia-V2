@@ -1327,12 +1327,12 @@ ul.top_icon li a {
 }
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
-.top-banner-slider {
+.top-banner-slider .amazing-museos-marco{
      overflow: hidden;
      clear: both;
      height: 600px;
 }
-.top-banner-slider .heroslider {
+.top-banner-slider .heroslider .amazing-museos-marco{
      margin: 0px;
      padding: 0px;
      border: none;
@@ -2000,7 +2000,7 @@ input[type="radio"] .styled:checked+label::after {
      background-position: center center;
 }
 
-.amazing .amazing-box {
+.amazing .amazing-box .amazing-box-museos{
      text-align: center;
 }
 .amazing .amazing-box h2 {
@@ -2075,6 +2075,60 @@ input[type="radio"] .styled:checked+label::after {
 .amazing-museos .amazing-box-museos a:hover {
      background: #000;
 }
+
+/* pagina de museos */
+
+.amazing-museo-ant {
+     background: url(../imgmuseos/museo-de-antioquia1.jpg);
+     padding: 90px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+
+.amazing-museos-marco {
+     background: url(../imgmuseos/marco\ fidel.png);
+     padding: 90px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+
+.amazing-museos-marco .amazing-box-museos .amazing-museo-ant{
+     text-align: center;
+}
+.amazing-museos-marco .amazing-box-museos h2{
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #f8f8f8;
+     line-height: 50px;
+     text-transform: uppercase;
+}
+.amazing-museos-marco .amazing-box-museos span  {
+     color: #ffffff;
+     font-size: 17px;
+     font-weight: bold;
+     line-height: 32px;
+     display: inline-block;
+     margin-bottom: 35px;
+}
+.amazing-museos-marco .amazing-box-museos a {
+     font-size: 17px;
+     padding: 15px 50px;
+     background-color: #ee580f;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin: 0 10px;
+}
+.amazing-museos-marco .amazing-box-museos a:hover {
+     background: #ad1f1f;
+}
+
+/* ************************ */
 .blog {
      background-color: #fff;
      padding-top: 90px;
