@@ -1993,8 +1993,13 @@ input[type="radio"] .styled:checked+label::after {
      margin: 0px 5px;
 }
 .amazing {
+<<<<<<< HEAD
      background: url(../img/miradores/MIRADOR-LAS-PALMAS_0001_2.jpg);
      padding: 100px 0px;
+=======
+     background: url(../img/index/miradorppl);
+     padding: 300px 0px;
+>>>>>>> 770aaef77fe80ee777f52ad3495018bac9844c29
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
@@ -2035,8 +2040,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 /*amagazing museos*/
 .amazing-museos {
-     background: url(../img/riosycascadas/medi.jpeg);
-     padding: 90px 0px;
+     background: url(../img/index/plaza-botero.jpg);
+     padding: 250px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
