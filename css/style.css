@@ -2164,6 +2164,10 @@ input[type="radio"] .styled:checked+label::after {
        background-position: center center;
   }
 
+.blog-box-nat figure img{
+     border-radius: 5px;
+     color: #3498db
+}
 /* ************************ */
 .blog {
      background-color: #fff;
