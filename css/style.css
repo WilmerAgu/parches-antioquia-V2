@@ -1784,7 +1784,7 @@ input[type="radio"] .styled:checked+label::after {
      -moz-background-size: 100% 20px;
      background-size: 100% 20px;
      background-image: -webkit-linear-gradient(left, #077f9b 0%, #0c1e43 100%), -webkit-linear-gradient(left, #077f9b 0%, #0c1e43 100%);
-     background-image: -moz-linear-gradient(left, #077f9b 0%, #0c1e43 100%), -moz-linear-gradient(left, #077f9b 0%, #0c1e434 100%);
+     background-image: -moz-linear-gradient(left, #077f9b 0%, #0c1e43 100%), -moz-linear-gradient(left, #077f9b 0%, #0c1e43 100%);
      background-image: -o-linear-gradient(left, #077f9b 0%, #0c1e43 100%), -o-linear-gradient(left, #077f9b 0%, #0c1e43 100%);
      background-image: linear-gradient(to right, #077f9b 0%, #0c1e43 100%), linear-gradient(to right, #077f9b 0%, #0c1e43 100%);
      max-width: 1004px;
@@ -2116,6 +2116,7 @@ input[type="radio"] .styled:checked+label::after {
      text-align: center;
 }
 .amazing-museos .amazing-box-museos  h2 {
+     transition: .5s linear;
      padding: 0px 0px 20px 0px;
      font-size: 30px;
      font-weight: bold;
@@ -2124,6 +2125,8 @@ input[type="radio"] .styled:checked+label::after {
      text-transform: uppercase;
      text-align: center;
 }
+
+
 .amazing-museos .amazing-box-museos  span {
      background-color: #00000088;
      color: #fff;
@@ -2158,6 +2161,7 @@ input[type="radio"] .styled:checked+label::after {
 .amazing .amazing-box  a:hover {
      background: #000;
 }
+
 
 /* pagina de museos */
 
@@ -2598,11 +2602,11 @@ ul.location_icon span {
 }
 
 /** slider arrow **/
-{
+/* {
      margin: 0;
      padding: 0;
-     overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
- }
+     overflow-x: hidden; Evita la barra de desplazamiento horizontal
+ } */
 
  .floating-images {
      position: fixed;
