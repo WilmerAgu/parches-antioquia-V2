@@ -2227,7 +2227,13 @@ input[type="radio"] .styled:checked+label::after {
      padding: 250px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     background-position: center center;
+     background-position: center;
+}
+
+.amazing-par video{
+     text-align: center;
+     top: -250px;
+     position: relative;
 }
 
 .amazing-nat1 {
