@@ -2069,7 +2069,7 @@ input[type="radio"] .styled:checked+label::after {
      font-size: 17px;
      padding: 15px 50px;
      background-color: #ee580f;
-     color: #fff;
+     color: #fdfdfd;
      display: inline-block;
      line-height: 20px;
      border-radius: 30px;
@@ -2104,11 +2104,13 @@ input[type="radio"] .styled:checked+label::after {
      background-position: center center;
 }
 
-.amazing-museo-ant{
-     color: #fdfdfd;
+.amazing-museo-ant .amazing-box-museos span{
+     color: #0a0909;
+     background-color: #c9c9c981;
      font-weight: bold;
-     font-size: 25px;
-     background-position: center center;
+     font-size: 35px;
+     display: inline-block;
+     margin-bottom: 35px;
 }
 
 .amazing-museos-marco .amazing-box-museos {
@@ -2118,15 +2120,15 @@ input[type="radio"] .styled:checked+label::after {
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #d32424;
+     color: #f0ecec;
      line-height: 50px;
      text-transform: uppercase;
 }
 .amazing-museos-marco .amazing-box-museos span  {
-     color: #d1cfcf;
-     font-size: 25px;
+     color: #212221;
+     background-color: #c5bebe6b;
+     font-size: 30px;
      font-weight: bold;
-     line-height: 32px;
      display: inline-block;
      margin-bottom: 35px;
 }
@@ -2134,7 +2136,7 @@ input[type="radio"] .styled:checked+label::after {
      font-size: 17px;
      padding: 15px 50px;
      background-color: #ee580f;
-     color: #fff;
+     color: #ffffff;
      display: inline-block;
      line-height: 20px;
      border-radius: 30px;
