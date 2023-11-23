@@ -150,6 +150,8 @@ a,
 img {
      max-width: 100%;
      height: auto;
+      display: block; /* Elimina espacio adicional debajo de la imagen */
+      margin: 0 auto; /* Centra la imagen en su contenedor */
 }
 
  :focus {
@@ -2091,7 +2093,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .amazing-museos-marco {
-     background: url(../imgmuseos/marco\ fidel.png);
+     background: url(../imgmuseos/marco\ fidel.png) ; max-width: 100%
      padding: 150px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
