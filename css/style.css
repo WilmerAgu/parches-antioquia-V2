@@ -1624,18 +1624,8 @@ input[type="radio"] .styled:checked+label::after {
      left: 0;
      text-align: center;
 }
-@media (max-width: 575px) {
-     .text-bg {
-          position: absolute;
-          right: 0;
-          top: 15%;
-          transform: translateY(-50%);
-          bottom: auto;
-          padding: 0;
-          left: 0;
-          text-align: center;   
-     }
-}
+
+
 .banner-main {
      position: relative;
      margin-bottom: 5rem;   
@@ -2009,6 +1999,56 @@ input[type="radio"] .styled:checked+label::after {
      border-radius: 25px;
      margin: 0px 5px;
 }
+/* titulo index */
+.text-bg-index {
+     position: absolute;
+     right: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     bottom: auto;
+     padding: 0;
+     left: 0;
+     text-align: center;
+}
+@media (max-width: 575px) {
+     .text-bg-index {
+          position: absolute;
+          right: 0;
+          top: 15%;
+          transform: translateY(-50%);
+          bottom: auto;
+          padding: 0;
+          left: 0;
+          text-align: center;   
+     }
+}
+.banner-main-index .text-bg-index h1 {
+     font-size: 90px;
+     line-height: 108px;
+     text-transform: uppercase;
+     color: #0adef8;
+     font-weight: bold;
+     padding-bottom: 35px;
+     padding-top: 25px;
+     margin-bottom: 5px;
+}
+
+@media (max-width: 575px) {
+     .banner-main-index .text-bg-index h1 {
+          font-size: 30px;
+          line-height: 30px;
+          text-transform: uppercase;
+          color: #0adef8;
+          font-weight: bold;
+          margin-top: 6rem;
+          
+     }
+}
+.banner-main-index{
+     position: relative;
+     margin-bottom: 5rem;   
+}
+/* seccion index - miradores */
 .amazing {
      background: url(../img/index/miradorppl);
      padding: 40px 0px;
@@ -2047,21 +2087,11 @@ input[type="radio"] .styled:checked+label::after {
      display: inline-block;
      margin-bottom: 35px;
 }
-.amazing .amazing-box  a {
-     font-size: 17px;
-     padding: 15px 50px;
-     background-color: #ee580f;
-     color: #fff;
-     display: inline-block;
-     line-height: 20px;
-     border-radius: 30px;
-     text-align: center;
-     margin: 0 10px;  
-}
+
 .amazing .amazing-box  a:hover {
      background: #000;
 }
-/*amagazing museos*/
+/* seccion index - amagazing museos */
 .amazing-museos {
      background: url(../img/index/plaza-botero.jpg);
      padding: 40px 0px;
@@ -2101,17 +2131,6 @@ input[type="radio"] .styled:checked+label::after {
      line-height: 32px;
      display: inline-block;
      margin-bottom: 35px;
-}
-.amazing .amazing-box  a {
-     font-size: 10px;
-     padding: 15px 50px;
-     background-color: #ee580f;
-     color: #fff;
-     display: inline-block;
-     line-height: 20px;
-     border-radius: 30px;
-     text-align: center;
-     margin: 0 10px;  
 }
 
 .amazing .amazing-box  a:hover {
