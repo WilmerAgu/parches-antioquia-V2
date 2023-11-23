@@ -426,46 +426,9 @@
             }
          }
       </script>
-      Asegúrate de ajustar las coordenadas y nombres de las ubicaciones según tus necesidades.
       
-      Visualizar el Mapa:
       
-      Abre tu archivo HTML en un navegador y deberías ver un mapa con los marcadores en las ubicaciones especificadas.
-      Este es un ejemplo básico, y puedes personalizarlo más según tus necesidades, como agregar información adicional a los marcadores, cambiar los estilos del mapa, etc. Ten en cuenta que la API de Google Maps puede tener restricciones y límites de uso, así que asegúrate de revisar la documentación para obtener más detalles.
-      
-      User
-      Como agrego las ubicaciones
-      ChatGPT
-      Para agregar ubicaciones en el mapa, puedes modificar la matriz ubicaciones en el script de inicialización del mapa. Cada elemento de la matriz representa una ubicación y contiene las coordenadas (lat y lng) y el nombre de la ubicación.
-      
-      Aquí hay un ejemplo donde he agregado tres ubicaciones ficticias. Puedes personalizar esto según las ubicaciones que desees mostrar:
-      
-      html
-      Copy code
-      <script>
-          function inicializarMapa() {
-              // Crear el mapa
-              var mapa = new google.maps.Map(document.getElementById('mapa'), {
-                  center: { lat: 6.2442, lng: -75.5812 }, // Coordenadas del centro del mapa
-                  zoom: 12 // Nivel de zoom inicial
-              });
-      
-              // Array de ubicaciones con sus coordenadas y nombres
-              var ubicaciones = [
-                  { lat: 6.19960, lng: -75.55883, nombre: 'Centro comercial El tesoro' },
-                  { lat: 6.24995, lng: -75.57044, nombre: 'Centro Comercial Palacio Nacional' },
-                  { lat: 6.19694, lng: -75.57489, nombre: 'Centro Comercial santa fe' }
-              ];
-      
-              // Agregar marcadores a cada ubicación
-              for (var i = 0; i < ubicaciones.length; i++) {
-                  var marcador = new google.maps.Marker({
-                      position: { lat: ubicaciones[i].lat, lng: ubicaciones[i].lng },
-                      map: mapa,
-                      title: ubicaciones[i].nombre
-                  });
-              }
-          }
+          
       </script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
