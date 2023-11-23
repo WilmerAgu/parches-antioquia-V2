@@ -150,6 +150,8 @@ a,
 img {
      max-width: 100%;
      height: auto;
+      display: block; /* Elimina espacio adicional debajo de la imagen */
+      margin: 0 auto; /* Centra la imagen en su contenedor */
 }
 
  :focus {
@@ -2069,7 +2071,7 @@ input[type="radio"] .styled:checked+label::after {
      font-size: 17px;
      padding: 15px 50px;
      background-color: #ee580f;
-     color: #fff;
+     color: #fdfdfd;
      display: inline-block;
      line-height: 20px;
      border-radius: 30px;
@@ -2084,31 +2086,79 @@ input[type="radio"] .styled:checked+label::after {
 
 .amazing-museo-ant {
      background: url(../imgmuseos/museo-de-antioquia1.jpg);
-     padding: 240px 0px;
-     background-size: 100% 100%;
+     display: block;
+     max-width: 100%;
+     height: auto;
      background-repeat: no-repeat;
      background-position: center center;
 }
+
+@media (min-width: 768) {
+     .amazing-museo-ant {
+          background: url(../imgmuseos/museo-de-antioquia1.jpg);
+          padding: 240px 0px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+     }
+}
+.h2mus{
+     font-size: 20px;
+     color: #347eaf;
+     font-weight: bold;
+     background-position: center center;
+}
+.h2mus p{
+     font-size: 10px;
+     font-weight: bold;
+     color: red;
+}
+
+
+@media (min-width: 500px) {
+     .h2mus h2 {
+          font-size: 80px;
+          font-weight: bold;
+          color: #347eaf;
+          background-position: center center;
+     }
+     .h2mus p{
+          font-size: 10px;
+          font-weight: bold;
+          color: red;
+     }
+}
+
 
 .amazing-museos-marco {
      background: url(../imgmuseos/marco\ fidel.png);
-     padding: 150px 0px;
-     background-size: 100% 100%;
+     display: block;
+     max-width: 100%;
+     height: auto;
      background-repeat: no-repeat;
      background-position: center center;
 }
-.h2mus{
-     font-size: 80px;
-     font-weight: bold;
-     color: #347eaf;
-     background-position: center center;
-}
 
-.amazing-museo-ant{
-     color: #fdfdfd;
+
+@media (min-width: 850px) {
+     .amazing-museos-marco {
+          background: url(../imgmuseos/marco\ fidel.png);
+          padding: 150px 0px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+     }
+}
+  
+
+
+.amazing-museo-ant .amazing-box-museos span{
+     color: #0a0909;
+     background-color: #c9c9c981;
      font-weight: bold;
-     font-size: 25px;
-     background-position: center center;
+     font-size: 35px;
+     display: inline-block;
+     margin-bottom: 35px;
 }
 
 .amazing-museos-marco .amazing-box-museos {
@@ -2118,15 +2168,15 @@ input[type="radio"] .styled:checked+label::after {
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #d32424;
+     color: #f0ecec;
      line-height: 50px;
      text-transform: uppercase;
 }
 .amazing-museos-marco .amazing-box-museos span  {
-     color: #d1cfcf;
-     font-size: 25px;
+     color: #212221;
+     background-color: #c5bebe6b;
+     font-size: 30px;
      font-weight: bold;
-     line-height: 32px;
      display: inline-block;
      margin-bottom: 35px;
 }
@@ -2134,7 +2184,7 @@ input[type="radio"] .styled:checked+label::after {
      font-size: 17px;
      padding: 15px 50px;
      background-color: #ee580f;
-     color: #fff;
+     color: #ffffff;
      display: inline-block;
      line-height: 20px;
      border-radius: 30px;

@@ -270,7 +270,7 @@
     .mean-bar {
         margin-top: -15px;
     }
-    .banner-main img {
+    .banner-main  img {
         height: 400px;
         width: 100%;
     }
@@ -359,7 +359,7 @@
     .head-top {
         display: none;
     }
-    .banner-main img {
+    .banner-main  img {
         width: 100%;
     }
     .banner-main .text-bg h1 {
