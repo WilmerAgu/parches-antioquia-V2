@@ -1628,7 +1628,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .banner-main {
      position: relative;
-     margin-bottom: 5rem;   
+     margin-bottom: 5rem;
 }
 .banner-main .text-bg h1 {
      font-size: 90px;
@@ -2019,7 +2019,7 @@ input[type="radio"] .styled:checked+label::after {
           bottom: auto;
           padding: 0;
           left: 0;
-          text-align: center;   
+          text-align: center;
      }
 }
 .banner-main-index .text-bg-index h1 {
@@ -2041,12 +2041,12 @@ input[type="radio"] .styled:checked+label::after {
           color: #0adef8;
           font-weight: bold;
           margin-top: 6rem;
-          
+
      }
 }
 .banner-main-index{
      position: relative;
-     margin-bottom: 5rem;   
+     margin-bottom: 5rem;
 }
 /* seccion index - miradores */
 .amazing {
@@ -2093,8 +2093,9 @@ input[type="radio"] .styled:checked+label::after {
 }
 /* seccion index - amagazing museos */
 .amazing-museos {
-     background: url(../img/index/plaza-botero.jpg);
+     background: url(../img/index/bg-museo-2.jpg);
      padding: 40px 0px;
+     height: 400px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
@@ -2102,13 +2103,13 @@ input[type="radio"] .styled:checked+label::after {
 @media (min-width: 768px) {
      .amazing-museos {
           position: relative;
-          background: url(../img/index/museo-de-antioquia.png);
-          padding:300px 0px;
+          background: url(../img/index/bg-museo.jpg);
+          padding:500px 0px;
           background-size: 100% 100%;
           background-repeat: no-repeat;
           background-position: center center;
      }
-     
+
 }
 
 .amazing-museos .amazing-box-museos .amazing-box-museos {
@@ -2116,9 +2117,9 @@ input[type="radio"] .styled:checked+label::after {
 }
 .amazing-museos .amazing-box-museos  h2 {
      padding: 0px 0px 20px 0px;
-     font-size: 50px;
+     font-size: 30px;
      font-weight: bold;
-     color: #13aba6;
+     color:#fc0000;
      line-height: 50px;
      text-transform: uppercase;
      text-align: center;
@@ -2126,11 +2127,31 @@ input[type="radio"] .styled:checked+label::after {
 .amazing-museos .amazing-box-museos  span {
      background-color: #00000088;
      color: #fff;
-     font-size: 20px;
-     font-weight: bold;
-     line-height: 32px;
+     font-size: 15px;
+     line-height: 20px;
      display: inline-block;
      margin-bottom: 35px;
+}
+@media (min-width: 768px) {
+     .amazing-museos .amazing-box-museos  h2 {
+          padding: 0px 0px 20px 0px;
+          font-size: 50px;
+          font-weight: bold;
+          color: #0368ff;
+          line-height: 50px;
+          text-transform: uppercase;
+          text-align: center;
+     }
+     .amazing-museos .amazing-box-museos  span {
+          background-color: #991212b7;
+          color: #fff;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 32px;
+          margin-bottom: 50%;          
+
+     }
+
 }
 
 .amazing .amazing-box  a:hover {
@@ -2204,7 +2225,7 @@ input[type="radio"] .styled:checked+label::after {
           background-position: center center;
      }
 }
-  
+
 
 
 .amazing-museo-ant .amazing-box-museos span{
@@ -2602,4 +2623,3 @@ ul.location_icon span {
      padding: 10px;
      margin-top: 50px; /* Ajusta el margen superior para evitar que el contenido se superponga con las imágenes */
  }
- 
