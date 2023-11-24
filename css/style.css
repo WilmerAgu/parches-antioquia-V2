@@ -2140,19 +2140,18 @@ input[type="radio"] .styled:checked+label::after {
           padding: 0px 0px 20px 0px;
           font-size: 50px;
           font-weight: bold;
-          color: #0368ff;
+          color: #ddb70e;
           line-height: 50px;
           text-transform: uppercase;
           text-align: center;
      }
      .amazing-museos .amazing-box-museos  span {
-          background-color: #991212b7;
+          background-color: rgba(146, 31, 31, 0.479);
           color: #fff;
           font-size: 20px;
           font-weight: bold;
           line-height: 32px;
-          margin-bottom: 50%;          
-
+                 
      }
 
 }
