@@ -2336,16 +2336,18 @@ input[type="radio"] .styled:checked+label::after {
 
 .amazing-nat1 {
      background: url(../img/naturaleza/parapente.jpg);
-       padding: 300px 0px;
-       background-size: 100% 100%;
-       background-repeat: no-repeat;
-       background-position: center center;
+     padding: 300px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
   }
 
 .blog-box-nat figure img{
      border-radius: 5px;
      color: #3498db
 }
+
+
 
 /* ************************ */
 
@@ -2399,8 +2401,7 @@ input[type="radio"] .styled:checked+label::after {
      margin-bottom: 5rem;
 }
 .amazing-par{
-     background:#2529C4;
-     padding: 250px 0px;
+     background-image: url(../img/parques/agua.png);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center;
@@ -2408,52 +2409,37 @@ input[type="radio"] .styled:checked+label::after {
 
 .amazing-par video{
      text-align: center;
-     top: -250px;
      position: relative;
+     margin-bottom: 20px;
 }
 
-.amazing-nat1 {
-     background: url(../img/naturaleza/parapente.jpg);
-       padding: 300px 0px;
-       background-size: 100% 100%;
-       background-repeat: no-repeat;
-       background-position: center center;
-}
+
 
 .amazing-par  h2 {
-     padding: 0px 0px 20px 0px;
+     padding: 0px 0px 0px 0px;
      font-size: 45px;
      font-weight: bold;
-     color: white;
+     color: rgb(80, 112, 218);
      line-height: 50px;
      text-transform: uppercase;
      position: relative;
-     top: -340px;
+     margin: 20px;
 }
 .amazing-par  span {
-     color: #fff;
+     color: blue;
      font-size: 17px;
      font-weight: bold;
      line-height: 32px;
      display: inline-block;
-     margin-bottom: 35px;
+     margin-bottom: 20px;
      text-align: justify;
      position: relative;
-     top: -350px;
+     
 }
-.amazing-par a {
-     font-size: 17px;
-     padding: 15px 50px;
-     background-color: #ee580f;
-     color: #fff;
-     display: inline-block;
-     line-height: 20px;
-     border-radius: 30px;
-     text-align: center;
-     margin: 0 10px;
-     position: relative;
-     top: -340px;
+.img-agua {
+     background-image: url(../img/parques/agua-2.png);   
 }
+
 
 .blog {
      background-color: #fff;
@@ -2660,7 +2646,7 @@ ul.location_icon span {
     margin-bottom: 25px !important;
     border-radius: 100%;
     margin: 0px 5px;
-        margin-bottom: 0px;
+     margin-bottom: 0px;
 }
 
 .owl-dot.active {
