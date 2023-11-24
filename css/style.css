@@ -1329,12 +1329,12 @@ ul.top_icon li a {
 }
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
-.top-banner-slider .amazing-museos-marco{
+.top-banner-slider {
      overflow: hidden;
      clear: both;
      height: 600px;
 }
-.top-banner-slider .heroslider .amazing-museos-marco{
+.top-banner-slider .heroslider {
      margin: 0px;
      padding: 0px;
      border: none;
@@ -2044,7 +2044,7 @@ input[type="radio"] .styled:checked+label::after {
 
      }
 }
-.banner-main-index{
+.banner-main-index {
      position: relative;
      margin-bottom: 5rem;
 }
@@ -2167,11 +2167,23 @@ input[type="radio"] .styled:checked+label::after {
 
 .amazing-museo-ant {
      background: url(../imgmuseos/museo-de-antioquia1.jpg);
-     display: block;
-     max-width: 100%;
-     height: auto;
+     /* padding: 200px 0px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;       
+          max-width: 100%;
+          position: relative;
+          margin-bottom: 5rem; */
+          font-size: 50px;
+     line-height: auto;
+     text-transform: uppercase;
+     color: #0adef8;
+     font-weight: bold;
+     padding-bottom: 215px;
+     padding-top: 50px;
+     margin-bottom: 2px;
      background-repeat: no-repeat;
-     background-position: center center;
+     background-size: 100% 100%;
+     
 }
 
 @media (min-width: 768) {
@@ -2184,15 +2196,17 @@ input[type="radio"] .styled:checked+label::after {
      }
 }
 .h2mus{
-     font-size: 20px;
+     font-size: 50px;
      color: #347eaf;
      font-weight: bold;
      background-position: center center;
 }
-.h2mus p{
-     font-size: 10px;
+.texant{
+     font-size: 20px;
      font-weight: bold;
-     color: red;
+     color: rgb(24, 19, 19);
+     background-color: #f5efef73;
+     background-position: center center;
 }
 
 
