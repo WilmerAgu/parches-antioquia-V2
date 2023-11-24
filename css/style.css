@@ -2150,13 +2150,9 @@ input[type="radio"] .styled:checked+label::after {
           color: #fff;
           font-size: 20px;
           font-weight: bold;
-          line-height: 32px;
-                 
+          line-height: 32px;                
      }
-
 }
-
-
 .amazing .amazing-box  a:hover {
      background: #000;
 }
@@ -2413,8 +2409,6 @@ input[type="radio"] .styled:checked+label::after {
      margin-bottom: 20px;
 }
 
-
-
 .amazing-par  h2 {
      padding: 0px 0px 0px 0px;
      font-size: 45px;
@@ -2438,6 +2432,81 @@ input[type="radio"] .styled:checked+label::after {
 }
 .img-agua {
      background-image: url(../img/parques/agua-2.png);   
+}
+.main_bt-carrusel {
+     background: #ee580f;
+     color: #fff;
+     padding: 5px 15px 5px 15px;
+     float: left;
+     font-size: 15px;
+     font-weight: 400;
+     border: solid #ee580f 2px;
+     border-radius: 30px;
+     margin: 15px 0px 60px 0px;
+}
+.amazing-parques {
+     background: url(../img/parques/bosque3.png);
+     padding: 40px 0px;
+     height: 400px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+@media (min-width: 768px) {
+     .amazing-parques {
+          position: relative;
+          background: url(../img/parques/bosque3.png);
+          padding:500px 0px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+     }
+
+}
+
+.amazing-parques .amazing-box-parques .amazing-box-parques {
+     text-align: center;
+}
+.amazing-parques .amazing-box-parques  h2 {
+     transition: .5s linear;
+     padding: 0px 0px 20px 0px;
+     font-size: 30px;
+     font-weight: bold;
+     color:#fc0000;
+     line-height: 50px;
+     text-transform: uppercase;
+     text-align: center;
+}
+
+
+.amazing-parques .amazing-box-parques  span {
+     background-color: #00000088;
+     color: #0f0f0f;
+     font-size: 15px;
+     line-height: 20px;
+     display: inline-block;
+     margin-bottom: 35px;
+}
+@media (min-width: 768px) {
+     .amazing-parques .amazing-box-parques  h2 {
+          padding: 0px 0px 20px 0px;
+          font-size: 50px;
+          font-weight: bold;
+          color: #37dd0e;
+          line-height: 50px;
+          text-transform: uppercase;
+          text-align: center;
+     }
+     .amazing-parques .amazing-box-parques  span {
+          background-color: rgba(146, 31, 31, 0.479);
+          color: #0e0d0d;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 32px;                
+     }
+}
+.amazing .amazing-box  a:hover {
+     background: #000;
 }
 
 
@@ -2542,6 +2611,8 @@ label {
      background-color: #022739;
      margin-top: 90px;
 }
+
+
 .footer .Follow {
      margin-bottom: 27px;
 }
