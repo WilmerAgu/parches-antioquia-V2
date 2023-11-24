@@ -2277,6 +2277,54 @@ input[type="radio"] .styled:checked+label::after {
 
 
 /*página naturaleza*/
+.text-bg-nat {
+     position: absolute;
+     right: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     bottom: auto;
+     padding: 0;
+     left: 0;
+     text-align: center;
+}
+@media (max-width: 575px) {
+     .text-bg-nat {
+          position: absolute;
+          right: 0;
+          top: 15%;
+          transform: translateY(-50%);
+          bottom: auto;
+          padding: 0;
+          left: 0;
+          text-align: center;
+     }
+}
+.banner-main-nat .text-bg-nat h1 {
+     font-size: 90px;
+     line-height: 108px;
+     text-transform: uppercase;
+     color: #0adef8;
+     font-weight: bold;
+     padding-bottom: 35px;
+     padding-top: 25px;
+     margin-bottom: 5px;
+}
+
+@media (max-width: 575px) {
+     .banner-main-nat .text-bg-nat h1 {
+          font-size: 30px;
+          line-height: 30px;
+          text-transform: uppercase;
+          color: #0adef8;
+          font-weight: bold;
+          margin-top: 6rem;
+
+     }
+}
+.banner-main-nat{
+     position: relative;
+     margin-bottom: 5rem;
+}
 
 .amazing-nat{
      background: url(../img/naturaleza/medi2.jpg);
