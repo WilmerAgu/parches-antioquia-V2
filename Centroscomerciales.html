@@ -48,9 +48,9 @@
                      <div class="col-md-12">
                         <div class="header_information">
                            <ul>
-                              <li><img src="" alt="#"/> Medellín, Colombia</li>
-                              <li><img src="" alt="#"/> +71  5678954378</li>
-                              <li><img src="" alt="#"/> parchesantioquia@gmail.com</li>
+                              <li><img src="images/1.png" alt="#"/> Medellin, Colombia</li>
+                              <li><img src="images/2.png" alt="#"/> +58  5678954378</li>
+                              <li><img src="images/3.png" alt="#"/> parchesantioquia@gmail.com</li>
                            </ul>
                         </div>
                      </div>
@@ -74,7 +74,7 @@
                                  <li class="active"> <a href="index.html">Inicio</a> </li>                               
                                  <li><a href="./Centroscomerciales.html">Centros Comerciales</a></li>
                                  <li><a href="./miradores.html">Miradores</a></li>
-                                 <li><a href="#">Parques</a></li>
+                                 <li><a href="./parques.html">Parques</a></li>
                                  <li> <a href="./museos.html">Museos</a> </li>
                                  <li><a href="./naturaleza.html">Naturaleza</a></li>
                               </ul>
@@ -90,7 +90,7 @@
       <!-- end header -->
       <section >
          <div class="banner-main">
-            <img src="./img/Centroscomerciales/HUJIJU.jpg" width="1700" alt="#"/>
+            <img src="./img/Centroscomerciales/barnner-cc.webp"  alt="#"/>
             <div class="container">
                <div class="text-bg">
                   <h1>Un mundo<br><strong class="white">de entretenimiento</strong></h1>
@@ -199,10 +199,10 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <div class="amazing-box-nat">
-                     <h2>Parapente</h2>
-                     <span>Esta es una experiencia única que puedes vivir si disfrutas la adrenalina, y deseas ver el mundo desde otro panorama. </span>
-                     <a href="https://parapentesanfelix.com/">¿Donde?</a>
+                  <div class="amazing-box-nath">
+                     <h2>La historia de los Centros Comerciales</h2>
+                     <span>La historia de los centros comerciales en Medellín y Antioquia, Colombia, se remonta a las décadas de 1950 y 1960, cuando la región experimentó un crecimiento económico impulsado por la industria textil. En la década de 1970, comenzó la era de los centros comerciales, con la construcción de espacios más grandes y modernos como el Centro Comercial Camino Real. En los años 80, surgieron centros como San Diego, Los Molinos y Oviedo. En las décadas posteriores, la consolidación y diversificación de la oferta fueron tendencias destacadas, con la incorporación de tiendas internacionales, restaurantes y atracciones de entretenimiento. Desde la década de 2010 en adelante, los centros comerciales han buscado la innovación, mejorando la experiencia del cliente con tecnología, eventos culturales y enfoques sostenibles. En resumen, la evolución de los centros comerciales refleja el desarrollo económico y social de la región a lo largo del tiempo.
+                     </span>
                   </div>
                </div>
             </div>
@@ -358,11 +358,11 @@
                         <h3>Paginas</h3>
                         <ul class="link">
                            <li> <a href="./index.html">Inicio</a></li>
-                           <li> <a href="/Centroscomerciales.html">Centros Comerciales</a></li>
+                           <li> <a href="Centroscomerciales.html">Centros Comerciales</a></li>
                            <li> <a href="./miradores.html">Miradores</a></li>
-                           <li> <a href="#">Parques</a></li>
+                           <li> <a href="./parques.html">Parques</a></li>
                            <li> <a href="./museos.html">Museos</a></li>
-                           <li> <a href="naturaleza.html">Naturaleza</a></li>
+                           <li> <a href="./naturaleza.html">Naturaleza</a></li>
                         </ul>
                      </div>
                   </div>
@@ -426,46 +426,9 @@
             }
          }
       </script>
-      Asegúrate de ajustar las coordenadas y nombres de las ubicaciones según tus necesidades.
       
-      Visualizar el Mapa:
       
-      Abre tu archivo HTML en un navegador y deberías ver un mapa con los marcadores en las ubicaciones especificadas.
-      Este es un ejemplo básico, y puedes personalizarlo más según tus necesidades, como agregar información adicional a los marcadores, cambiar los estilos del mapa, etc. Ten en cuenta que la API de Google Maps puede tener restricciones y límites de uso, así que asegúrate de revisar la documentación para obtener más detalles.
-      
-      User
-      Como agrego las ubicaciones
-      ChatGPT
-      Para agregar ubicaciones en el mapa, puedes modificar la matriz ubicaciones en el script de inicialización del mapa. Cada elemento de la matriz representa una ubicación y contiene las coordenadas (lat y lng) y el nombre de la ubicación.
-      
-      Aquí hay un ejemplo donde he agregado tres ubicaciones ficticias. Puedes personalizar esto según las ubicaciones que desees mostrar:
-      
-      html
-      Copy code
-      <script>
-          function inicializarMapa() {
-              // Crear el mapa
-              var mapa = new google.maps.Map(document.getElementById('mapa'), {
-                  center: { lat: 6.2442, lng: -75.5812 }, // Coordenadas del centro del mapa
-                  zoom: 12 // Nivel de zoom inicial
-              });
-      
-              // Array de ubicaciones con sus coordenadas y nombres
-              var ubicaciones = [
-                  { lat: 6.19960, lng: -75.55883, nombre: 'Centro comercial El tesoro' },
-                  { lat: 6.24995, lng: -75.57044, nombre: 'Centro Comercial Palacio Nacional' },
-                  { lat: 6.19694, lng: -75.57489, nombre: 'Centro Comercial santa fe' }
-              ];
-      
-              // Agregar marcadores a cada ubicación
-              for (var i = 0; i < ubicaciones.length; i++) {
-                  var marcador = new google.maps.Marker({
-                      position: { lat: ubicaciones[i].lat, lng: ubicaciones[i].lng },
-                      map: mapa,
-                      title: ubicaciones[i].nombre
-                  });
-              }
-          }
+          
       </script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
