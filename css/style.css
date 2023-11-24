@@ -2160,6 +2160,14 @@ input[type="radio"] .styled:checked+label::after {
 
 /* pagina de museos */
 
+.titlepage{
+     width: 100%;
+            height: auto;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+}
+
 .amazing-museo-ant {
      background: url(../imgmuseos/museo-de-antioquia1.jpg);
      /* padding: 200px 0px;
