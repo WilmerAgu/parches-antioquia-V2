@@ -2160,6 +2160,17 @@ input[type="radio"] .styled:checked+label::after {
 
 /* pagina de museos */
 
+.zoom-mus img{
+     width: 350px;
+     height: 250px;
+     border-radius: 50%;
+     transition: o.5s;
+     object-fit: cover;
+}
+.zoom-mus img:hover{
+     transform: scale(1.2);
+}
+
 /* video de la Pagina Museo */
 .titlepage{
      width: 100%;
