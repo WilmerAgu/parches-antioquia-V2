@@ -2293,7 +2293,27 @@ input[type="radio"] .styled:checked+label::after {
 .amazing-museos-marco .amazing-box-museos a:hover {
      background: #141212;
 }
+/* pagina de centros comerciales */
 
+.amazing-centroscom {
+     background: url(../img/index/bg-museo-2.jpg);
+     padding: 40px 0px;
+     height: 400px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+@media (min-width: 768px) {
+     .amazing-centroscom {
+          position: relative;
+          background: url(../img/Centroscomerciales/centrocomer.png);
+          padding:500px 0px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+     }
+
+}
 
 /*página naturaleza*/
 .text-bg-nat {
