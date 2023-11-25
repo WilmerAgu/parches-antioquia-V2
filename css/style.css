@@ -2233,7 +2233,7 @@ input[type="radio"] .styled:checked+label::after {
      background: url(../imgmuseos/marco\ fidel.png);
      display: block;
      max-width: 100%;
-     height: auto;
+     height: 600px;
      background-repeat: no-repeat;
      background-position: center center;
 }
