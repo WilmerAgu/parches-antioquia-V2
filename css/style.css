@@ -1329,12 +1329,12 @@ ul.top_icon li a {
 }
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
-.top-banner-slider .amazing-museos-marco{
+.top-banner-slider {
      overflow: hidden;
      clear: both;
      height: 600px;
 }
-.top-banner-slider .heroslider .amazing-museos-marco{
+.top-banner-slider .heroslider {
      margin: 0px;
      padding: 0px;
      border: none;
@@ -2044,7 +2044,7 @@ input[type="radio"] .styled:checked+label::after {
 
      }
 }
-.banner-main-index{
+.banner-main-index {
      position: relative;
      margin-bottom: 5rem;
 }
@@ -2150,13 +2150,9 @@ input[type="radio"] .styled:checked+label::after {
           color: #fff;
           font-size: 20px;
           font-weight: bold;
-          line-height: 32px;
-                 
+          line-height: 32px;                
      }
-
 }
-
-
 .amazing .amazing-box  a:hover {
      background: #000;
 }
@@ -2164,13 +2160,34 @@ input[type="radio"] .styled:checked+label::after {
 
 /* pagina de museos */
 
+/* video de la Pagina Museo */
+.titlepage{
+     width: 100%;
+            height: auto;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+}
+
 .amazing-museo-ant {
      background: url(../imgmuseos/museo-de-antioquia1.jpg);
-     display: block;
-     max-width: 100%;
-     height: auto;
+     /* padding: 200px 0px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;       
+          max-width: 100%;
+          position: relative;
+          margin-bottom: 5rem; */
+          font-size: 50px;
+     line-height: auto;
+     text-transform: uppercase;
+     color: #0adef8;
+     font-weight: bold;
+     padding-bottom: 215px;
+     padding-top: 50px;
+     margin-bottom: 2px;
      background-repeat: no-repeat;
-     background-position: center center;
+     background-size: 100% 100%;
+     
 }
 
 @media (min-width: 768) {
@@ -2183,15 +2200,17 @@ input[type="radio"] .styled:checked+label::after {
      }
 }
 .h2mus{
-     font-size: 20px;
-     color: #347eaf;
+     font-size: 50px;
+     color: #fa6603;
      font-weight: bold;
      background-position: center center;
 }
-.h2mus p{
-     font-size: 10px;
+.texant{
+     font-size: 20px;
      font-weight: bold;
-     color: red;
+     color: rgb(24, 19, 19);
+     background-color: #f5efefad;
+     background-position: center center;
 }
 
 
@@ -2248,7 +2267,7 @@ input[type="radio"] .styled:checked+label::after {
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #f0ecec;
+     color: #f3f706;
      line-height: 50px;
      text-transform: uppercase;
 }
@@ -2264,7 +2283,7 @@ input[type="radio"] .styled:checked+label::after {
      font-size: 17px;
      padding: 15px 50px;
      background-color: #ee580f;
-     color: #ffffff;
+     color: #1d1010;
      display: inline-block;
      line-height: 20px;
      border-radius: 30px;
@@ -2413,8 +2432,6 @@ input[type="radio"] .styled:checked+label::after {
      margin-bottom: 20px;
 }
 
-
-
 .amazing-par  h2 {
      padding: 0px 0px 0px 0px;
      font-size: 45px;
@@ -2436,10 +2453,93 @@ input[type="radio"] .styled:checked+label::after {
      position: relative;
      
 }
-.img-agua {
-     background-image: url(../img/parques/agua-2.png);   
+
+@media (min-width: 768px) {
+     .img-agua {
+          background-image: url(../img/parques/agua-2.png);   
+     }
+ }
+
+
+.main_bt-carrusel {
+     background: #ee580f;
+     color: #fff;
+     padding: 5px 15px 5px 15px;
+     float: left;
+     font-size: 15px;
+     font-weight: 400;
+     border: solid #ee580f 2px;
+     border-radius: 30px;
+     margin: 15px 0px 60px 0px;
+}
+.amazing-parques {
+     /* background: url(../img/parques/bosque3.png); */
+     padding: 80px 0px;
+     height: 300px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+@media (min-width: 768px) {
+     .amazing-parques {
+          position: relative;
+          background: url(../img/parques/bosque3.png);
+          padding:500px 0px;
+          height: 400px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+     }
+
 }
 
+.amazing-parques .amazing-box-parques .amazing-box-parques {
+     text-align: center;
+}
+.amazing-parques .amazing-box-parques  h2 {
+     transition: .5s linear;
+     padding: 0px 0px 20px 0px;
+     font-size: 30px;
+     font-weight: bold;
+     color:#fc0000;
+     text-transform: uppercase;
+     text-align: center;
+}
+
+@media (min-width: 768px) {
+     .amazing-parques .amazing-box-parques  h2 {
+          padding: 0px 0px 20px 0px;
+          font-size: 50px;
+          font-weight: bold;
+          color: #37dd0e;
+          text-transform: uppercase;
+          text-align: center;
+     }
+     
+}
+.amazing .amazing-box  a:hover {
+     background: #000;
+}
+
+.video-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto auto;
+     column-gap: 4rem;
+     margin-top: 4rem;
+     margin-bottom: 20rem;
+ }  
+@media (min-width: 768px) {
+     .video-grid {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: auto auto;
+         column-gap: 4rem;
+         margin-top: 4rem;
+         margin-bottom: 10rem;
+     }  
+   }
+   
 
 .blog {
      background-color: #fff;
@@ -2542,6 +2642,8 @@ label {
      background-color: #022739;
      margin-top: 90px;
 }
+
+
 .footer .Follow {
      margin-bottom: 27px;
 }
@@ -2708,4 +2810,21 @@ ul.location_icon span {
  .content {
      padding: 10px;
      margin-top: 50px; /* Ajusta el margen superior para evitar que el contenido se superponga con las imágenes */
+
+/* Reseñas de centros comerciales */
  }
+<<<<<<< Updated upstream
+=======
+ #reseñas ccc {
+     background-color: #040463; /* Color morado claro */
+     padding: 20px;
+     margin: 20px;
+  }
+  
+  .reseña cc {
+     border: 1px solid #5f14f5; /* Color morado oscuro para el borde */
+     padding: 15px;
+     margin-bottom: 15px;
+  }
+  
+>>>>>>> Stashed changes
