@@ -2827,6 +2827,23 @@ ul.location_icon span {
      background-color: #01090f; 
      padding: 10px; /
  }
-
-
+/* Resenas */
+.reseña.cc {
+     background-color: #fff; /* Fondo blanco */
+     border: 1px solid #3498db; /* Borde azul */
+     border-radius: 8px; /* Esquinas redondeadas */
+     padding: 20px;
+     margin: 10px;
+     width: calc(50% - 20px); /* Ancho del contenedor de la reseña, teniendo en cuenta el margen */
+     box-sizing: border-box;
+ }
  
+ /* Estilos para el título de la reseña (h2 dentro de .reseña.cc) */
+ .reseña.cc h2 {
+     color: #3498db; /* Azul brillante */
+ }
+ 
+ /* Estilos para el párrafo de la reseña (p dentro de .reseña.cc) */
+ .reseña.cc p {
+     color: #555; /* Color de texto secundario */
+ }
