@@ -2810,4 +2810,21 @@ ul.location_icon span {
  .content {
      padding: 10px;
      margin-top: 50px; /* Ajusta el margen superior para evitar que el contenido se superponga con las imágenes */
+
+/* Reseñas de centros comerciales */
  }
+<<<<<<< Updated upstream
+=======
+ #reseñas ccc {
+     background-color: #040463; /* Color morado claro */
+     padding: 20px;
+     margin: 20px;
+  }
+  
+  .reseña cc {
+     border: 1px solid #5f14f5; /* Color morado oscuro para el borde */
+     padding: 15px;
+     margin-bottom: 15px;
+  }
+  
+>>>>>>> Stashed changes
