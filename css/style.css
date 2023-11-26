@@ -2880,3 +2880,32 @@ ul.location_icon span {
  .reseña.cc p {
      color: #555; 
  }
+/* galeria centros comerciales*/
+.galeria  {
+     display: flex;
+     width: 1000px;
+     height: 700px;
+     margin: 0 auto; 
+}
+
+.galeria  img {
+     width: 0px;
+     flex-grow: 1;
+     object-fit: cover;
+     filter: brightness(80%);
+     transition: 7.s ease;
+
+}
+.galeria  img:hover{
+     width: 500px;
+     opacity: 1;
+     filter: brightness(130%);
+}
+
+/*linea centros*/
+.linea-separadora {
+     width: 100%;
+     height: 1px;
+     background-color: #ccc;
+     margin: 20px 0;
+   }
