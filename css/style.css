@@ -2307,16 +2307,34 @@ input[type="radio"] .styled:checked+label::after {
 /* pagina de centros comerciales */
 
  /* letra de la imagen cc*/
- /* .titulo {
-     font-size: 16px;
-     color: white;
-     background-color: #d0d2d375; 
-     padding: 10px; /
+ .titulo {
+
+     font-size: 50px;
+     color: #0366fa;
+     font-weight: bold;
+     background-position: center center;
  
- } */
+ }
+ .amazing-CC {
+     background: url(../img/Centroscomerciales/centro-com.avif);
+     padding: 40px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+@media (min-width: 768px) {
+     .amazing-CC {
+          position: relative;
+          background: url(../img/Centroscomerciales/centro-com.avif);
+          padding:300px 0px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+     }
+}
 
 .amazing-centroscom {
-     background: url(../img/index/bg-museo-2.jpg);
+     background: url(../img/Centroscomerciales/centrocomer.png);
      padding: 40px 0px;
      height: 100px;
      background-size: 100% 100%;
@@ -2855,9 +2873,9 @@ ul.location_icon span {
 
  
  .contenido {
-     font-size: 16px;
-     color: white;
-     background-color: #01090f; 
+     font-size: 20px;
+     color: rgb(5, 5, 5);
+     background-color: #e7ecf07a; 
      padding: 10px; /
  }
 /* Resenas */
