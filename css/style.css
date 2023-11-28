@@ -2424,7 +2424,16 @@ input[type="radio"] .styled:checked+label::after {
      color: #3498db
 }
 
-
+.zoom1 img{
+     width: 350px;
+     height: 250px;
+     border-radius: 50%;
+     transition: o.5s;
+     object-fit: cover;
+}
+.zoom1 img:hover{
+     transform: scale(1.2);
+}
 
 /* ************************ */
 
