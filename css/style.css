@@ -2404,7 +2404,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .amazing-nat{
-     background: url(../img/naturaleza/medi2.jpg);
+     background: url(../img/naturaleza/medi1.jpg);
      padding: 250px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -2437,8 +2437,13 @@ input[type="radio"] .styled:checked+label::after {
 .parape{
      background-color: rgba(53, 78, 192, 0.473);
      color: white;
+     font-size: 20px;
      border-radius: 5px;
      justify-content: left;
+}
+
+.parape h2{
+     font-size: 30px;
 }
 /* ************************ */
 
