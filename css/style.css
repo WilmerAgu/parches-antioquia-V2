@@ -2434,6 +2434,12 @@ input[type="radio"] .styled:checked+label::after {
      transform: scale(1.2);
 }
 
+.parape{
+     background-color: rgba(53, 78, 192, 0.473);
+     color: white;
+     border-radius: 5px;
+     justify-content: left;
+}
 /* ************************ */
 
 /*página parques*/
