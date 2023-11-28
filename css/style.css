@@ -2420,7 +2420,6 @@ input[type="radio"] .styled:checked+label::after {
   }
 
 .blog-box-nat figure img{
-     border-radius: 5px;
      color: #3498db
 }
 
