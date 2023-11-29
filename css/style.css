@@ -2156,7 +2156,39 @@ input[type="radio"] .styled:checked+label::after {
 .amazing .amazing-box  a:hover {
      background: #000;
 }
-
+.botones-modal {
+     display: flex;
+     justify-content:center;
+     margin: 20px; /* Ajusta el margen según sea necesario */
+   }
+   
+   .botones-modal  {
+     padding: 1rem; /* Ajusta el padding según sea necesario */
+   }
+   dialog::backdrop {
+     background: rgba(0, 0, 0, 0.8);
+   }
+   .btn-modal-abrir {
+     background-color: var(--naranja);
+     color: var(--blanco);
+     border-radius: 1rem;
+     border: none;
+     padding: 1rem 2rem;
+     text-transform: uppercase;
+     font-weight: 700;
+     margin-left: 2rem;
+   }
+   .btn-modal-cerrar {
+     background-color:red;
+     color: var(--blanco);
+     border-radius: 1rem;
+     border: none;
+     padding: .5rem 1rem;
+     text-transform: uppercase;
+     font-weight: 700;
+     
+   }
+   
 
 /* pagina de museos */
 
@@ -2446,6 +2478,10 @@ input[type="radio"] .styled:checked+label::after {
      font-size: 30px;
 }
 
+.medi {
+     display: flex;
+     justify-content: right;
+}
 .medi a{
      text-align: right;
 }
