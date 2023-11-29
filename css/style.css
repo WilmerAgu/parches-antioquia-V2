@@ -2917,47 +2917,7 @@ ul.location_icon span {
      background-color: #e7ecf07a; 
      padding: 10px; /
  }
-/* Resenas */
-.reseña.cc {
-     background-color: #fff;
-     border: 1px solid #3498db; 
-     border-radius: 8px; 
-     padding: 20px;
-     margin: 10px;
-     width: calc(50% - 20px); 
-     box-sizing: border-box;
- }
- 
- /* Estilos para el título de la reseña (h2 dentro de .reseña.cc) */
- .reseña.cc h2 {
-     color: #3498db; 
- }
- 
- /* Estilos para el párrafo de la reseña (p dentro de .reseña.cc) */
- .reseña.cc p {
-     color: #555; 
- }
-/* galeria centros comerciales*/
-.galeria  {
-     display: flex;
-     width: 1000px;
-     height: 700px;
-     margin: 0 auto; 
-}
 
-.galeria  img {
-     width: 0px;
-     flex-grow: 1;
-     object-fit: cover;
-     filter: brightness(80%);
-     transition: 7.s ease;
-
-}
-.galeria  img:hover{
-     width: 500px;
-     opacity: 1;
-     filter: brightness(130%);
-}
 
 /*linea centros*/
 .linea-separadora {
@@ -2966,3 +2926,26 @@ ul.location_icon span {
      background-color: #ccc;
      margin: 20px 0;
    }
+   /*galeria*/
+
+div.galeria {
+     margin: 10px 20px;
+     box-shadow: 0 4px 8px 0 rgb(245, 246, 247), 0 6px 20px 0 black;
+     float: left;
+     width: 350px;
+}
+div.gaeria img {
+     width: 100%;
+     height: auto;
+}
+div.galeria:hover {
+     border: 1px solid lightcoral;
+     transform: rotate(-3deg);
+
+}
+div.pie {
+     text-align: center;
+     text-shadow: 2px 2px 5px purple;
+     padding: 10px;
+
+}
