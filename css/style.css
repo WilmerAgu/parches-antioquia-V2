@@ -1891,10 +1891,18 @@ input[type="radio"] .styled:checked+label::after {
      background: #15cfe5;
 }
 .traveling-box img{
-     width: 350px;
-     height: 250px;
+     width: 300px;
+     height: 300px;
      border-radius: 50%;
 }
+@media (min-width: 768px) {
+     .traveling-box img{
+          width: 350px;
+          height: 250px;
+          border-radius: 50%;
+     }
+ }
+
 .London {
      background-color: #fff;
 }
@@ -2156,37 +2164,60 @@ input[type="radio"] .styled:checked+label::after {
 .amazing .amazing-box  a:hover {
      background: #000;
 }
-.zoom {
-     transition: 0.5s;
-     object-fit: cover;
-}
-.zoom img:hover{
-     transform: rotate(-3deg);
-     
-} 
+
+
 .cc-index {
-     margin: 10px 20px;
+     margin: 5px 5px;
      border-radius: 1rem;
      box-shadow: 0 4px 8px 0 rgb(245, 246, 247), 0 6px 20px 0 black;
      float: left;
-     width: 350px;
+     width: 305px;
 }
 .foto-cc-index {
      width: 100%;
      height: auto;
      max-width: 100%;
 }
-.cc-index:hover {
-     border: 1px solid red;
-     transform: scale(1.2);
-}
+
 .btn-cc {
      margin-bottom: 2rem;
 }
 .img-cc-index {
      margin-top: 1rem;
 }
+@media (min-width: 768px) {
+     .zoom {
+          transition: 0.5s;
+          object-fit: cover;
+     }
+     .zoom img:hover{
+          transform: rotate(-3deg);
+          
+     } 
+     .cc-index {
+          margin: 10px 20px;
+          border-radius: 1rem;
+          box-shadow: 0 4px 8px 0 rgb(245, 246, 247), 0 6px 20px 0 black;
+          float: left;
+          width: 350px;
+     }
+     .foto-cc-index {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+     }
+     .cc-index:hover {
+          border: 1px solid red;
+          transform: scale(1.2);
+     }
+     .btn-cc {
+          margin-bottom: 2rem;
+     }
+     .img-cc-index {
+          margin-top: 1rem;
+     }
 
+}
 /* pagina de museos */
 
 .zoom-mus img{
@@ -2388,13 +2419,14 @@ input[type="radio"] .styled:checked+label::after {
      background-color: #ccc;
      margin: 20px 0;
    }
-   /*galeria tips -cc*/
+/*galeria tips -cc*/
+
 .gal-cc{
      display: grid;
-     grid-template-columns: repeat(3, 3fr);
+     grid-template-columns: repeat(1, 1fr);
      gap: 2rem;
+     
 }  
-
 .galeria-cc {
      margin: 10px 20px;
      box-shadow: 0 4px 8px 0 rgb(245, 246, 247), 0 6px 20px 0 black;
@@ -2406,11 +2438,7 @@ input[type="radio"] .styled:checked+label::after {
      height: auto;
      max-width: 100%;
 }
-.galeria-cc:hover {
-     border: 1px solid lightcoral;
-     transform: rotate(-3deg);
 
-}
 .pie {
      text-align: center;
      text-shadow: 2px 2px 5px purple;
@@ -2419,7 +2447,20 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 
-
+@media (min-width: 768px) {
+     .gal-cc{
+          display: grid;
+          grid-template-columns: repeat(3, 3fr);
+          gap: 2rem;
+     }  
+     .galeria-cc:hover {
+          border: 1px solid lightcoral;
+          transform: rotate(-3deg);
+     
+     }
+     
+}   
+    
 /*página naturaleza*/
 .text-bg-nat {
      position: absolute;
@@ -2641,7 +2682,6 @@ input[type="radio"] .styled:checked+label::after {
      margin: 15px 0px 60px 0px;
 }
 .amazing-parques {
-     /* background: url(../img/parques/bosque3.png); */
      padding: 80px 0px;
      height: 300px;
      background-size: 100% 100%;
@@ -2669,7 +2709,7 @@ input[type="radio"] .styled:checked+label::after {
      padding: 0px 0px 20px 0px;
      font-size: 30px;
      font-weight: bold;
-     color:#fc0000;
+     color:#15fc00;
      text-transform: uppercase;
      text-align: center;
 }
