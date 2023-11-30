@@ -2990,5 +2990,17 @@ ul.location_icon span {
  }
 
 
+<<<<<<< Updated upstream
+=======
+/*linea centros*/
+.linea-separadora {
+     width: 100%;
+     height: 1px;
+     background-color: #ccc;
+     margin: 20px 0;
+   }
+   
+   /*galeria*/
+>>>>>>> Stashed changes
 
   
