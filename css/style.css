@@ -2384,41 +2384,6 @@ input[type="radio"] .styled:checked+label::after {
      }
 
 }
-/*linea centros*/
-.linea-separadora {
-     width: 100%;
-     height: 1px;
-     background-color: #ccc;
-     margin: 20px 0;
-   }
- /*galeria cc*/
-.gal-cc {
-     display: grid;
-     grid-template-columns: repeat(3, 3fr);
-     grid-template-rows: auto;
-     gap: 2rem;
-}
-.galeria-cc {
-     margin: 10px 20px;
-     box-shadow: 0 4px 8px 0 rgb(245, 246, 247), 0 6px 20px 0 black;
-     float: left;
-     width: 350px;
-     
-}
-.foto-cc {
-     width: 100%;
-     height: auto;
-}
-.galeria-cc:hover {
-     border: 1px solid lightcoral;
-     transform: rotate(-3deg);
-}
-.pie {
-     text-align: center;
-     text-shadow: 2px 2px 5px purple;
-     padding: 10px;
-
-}
 
 /*página naturaleza*/
 .text-bg-nat {
@@ -2990,5 +2955,33 @@ ul.location_icon span {
  }
 
 
+/*linea centros*/
+.linea-separadora {
+     width: 100%;
+     height: 1px;
+     background-color: #ccc;
+     margin: 20px 0;
+   }
+   /*galeria*/
 
-  
+div.galeria {
+     margin: 10px 20px;
+     box-shadow: 0 4px 8px 0 rgb(245, 246, 247), 0 6px 20px 0 black;
+     float: left;
+     width: 350px;
+}
+div.gaeria img {
+     width: 100%;
+     height: auto;
+}
+div.galeria:hover {
+     border: 1px solid lightcoral;
+     transform: rotate(-3deg);
+
+}
+div.pie {
+     text-align: center;
+     text-shadow: 2px 2px 5px purple;
+     padding: 10px;
+
+}
